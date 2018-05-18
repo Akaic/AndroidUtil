@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:titleBar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.summary.hecom.custom.view.TitleBar
+        android:id="@+id/tl_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        titleBar:left_img_src="@mipmap/title_back_normal"
+        titleBar:left_text_text="返回"
+        titleBar:title_text="常见自定义控件" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_custom_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
